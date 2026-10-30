@@ -10,6 +10,9 @@ upstream:
   version:
     type: github_release
     repo: imputnet/helium-linux
+    require_assets:
+      - asset: '^helium\-bin_.*\-1_amd64\.deb$'
+      - asset: '^helium\-bin_.*\-1_arm64\.deb$'
   notes:
     type: github_release
     repo: imputnet/helium-linux
