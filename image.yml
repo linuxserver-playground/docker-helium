@@ -16,6 +16,9 @@ upstream:
   notes:
     type: github_release
     repo: imputnet/helium-linux
+  sponsor:
+  - name: Sponsor Helium
+    url: https://helium.computer/sponsor
 
 release:
   branch: master
